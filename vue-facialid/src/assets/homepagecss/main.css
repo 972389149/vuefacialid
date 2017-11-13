@@ -1,0 +1,204 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: #F8E889;
+	border-bottom: 2px solid #FF808E;
+}
+.HeadName{
+	position: absolute;
+	z-index: 999;
+	margin: 8px 0 0 12px;
+	color: #ccc;
+	font-size: 30px;
+	font-family: 微软雅黑; 
+	cursor: pointer;
+}
+.HeadSearch{
+    position: absolute;
+    margin:14px 0 0 352px;
+    /*width: 250px;*/
+    color: #595959;
+}
+.srhchoose{
+	position: absolute;
+	margin:2px 0 0 4px;
+	background-color: transparent;
+	display: inline-block;
+	border: 2px solid #CDCA7D;  
+	height: 35px; 
+	cursor: pointer;
+	background-color: #ECE6AA;
+}
+.Headsearch select option{
+    background-color: #ECE6AA;
+    color: #757575;
+}
+.Headsearch select:active{
+    border-color: #ECE6AA;
+}
+.Headsearch{
+	position: absolute;
+    margin:12px 0 0 300px;
+    /*width: 250px;*/
+    color: #757575;
+}
+.UserHead{
+	float: right;
+	margin: 15px 50px 0 0;
+	color: #ccc;
+}
+.UserName{
+	color: #B5B4B4;
+	float: left;
+	margin: 0px 0 0 10px;
+	cursor: pointer;
+	font-size: 12px;
+}
+.UserName:hover{
+	color: #757575;
+}
+.Nav{
+	position: absolute;
+	margin-top: 60px;
+	width: 20%;
+	background-color: #CDCA7D;
+}
+.MainCon{
+	width: 80%;
+	position: absolute;
+	margin:60px 0 0 20%; 
+	overflow-y: scroll;
+	background-color: #FFFFFF; 
+}
+.MainCon table{
+    margin-top:40px;
+}
+.MainCon table th,.MainCon table td{
+	text-align: center;
+	font-size: 18px;
+}
+
+.top{
+    
+}
+.bottom{
+    position:fixed;
+    bottom:0px;
+    width: 80%;
+    height: 55px;
+    padding-top: 10px;
+    background-color: #ECE6AA;
+}
+.bottom span{
+	float: right;
+	margin-right: 15px;
+	font-family: 微软雅黑;
+	color: #96888B;
+}
+/*标题*/
+.MainCon .titles{
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #E5E0B7;
+	color: #fff;
+}
+
+/*通知*/
+.notice{
+	float: right;
+	margin: 10px 15px 0 0px;
+	width: 62%;
+	height: 445px;
+	border-radius: 6px;
+	background-color: #FAFAFA;
+}
+.noticehead{
+	height: 10%;
+	border-bottom: 1px solid #FF808E;
+	font-size: 18px;
+	line-height: 43px;  
+	padding-left: 10px; 
+	color: #888888;
+}
+.notices{
+	height: 40%;
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+}
+.noticeshead{
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    height: 20%;
+    padding-left: 2%;
+    color: #333333;
+}
+.noticemain{
+    float: right;
+    width: 100%;
+    height: 65%;
+    padding-left: 10%;
+    font-size: 14px;
+}
+.noticetime{
+    float: right;    
+}
+
+/*日历*/
+.data{
+	float: left;
+	margin:10px 0px 0 15px;
+}
+
+/*搜索框代码*/
+.bar5 {background: #ECE6AA;} 
+.bar5 input, .bar5 button { background: transparent; } 
+.bar5 input { border: 2px solid #CDCA7D; } 
+.bar5 button { top: -4px; right: 2px; height: 42px; width: 42px; cursor: pointer; position: absolute; } 
+.bar5 button:before { content: "\f002"; font-family: FontAwesome; font-size: 16px; color: #ffffff; } 
+.bar5 input:focus { border-color: #8CACBD }form { position: relative; width: 300px; margin: 0 auto; } 
+input, button { border: none; outline: none; } 
+input { width: 100%; height: 35px; padding-left: 13px; } 
+
+/*表单*/
+.a-upload {
+    padding: 0px 53px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    cursor: pointer;
+    color: #768492;
+    background: #fafafa;
+    border: 1px solid #B9C1CA;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.a-upload:hover {
+    color: #768492;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none;
+}

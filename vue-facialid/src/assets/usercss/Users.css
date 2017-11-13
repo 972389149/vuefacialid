@@ -1,0 +1,79 @@
+/* .AddUsers{
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #D0D0D0;
+	color: #FAFAFA;
+} */
+.UsersForm{
+    width: 100%;
+    height: 500px;
+    /*border:1px solid #000000; */
+}
+.UsersForm1{
+	width: 40%;
+	float: left;
+	margin-left: 20%;
+	margin-top: 40px;
+	/*border:1px solid #000000;*/
+	overflow: hidden;
+}
+.UsersForm2 span{
+	color: #768492;
+	font-weight: bolder;
+	font-size: 15px;
+}
+.UsersForm2{
+	width: 30%;
+	height: 250px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 10px;
+	/*border:1px solid #000000;*/
+}
+.UsersForm3{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 80px;
+	/*border:1px solid #000000;*/
+}
+.filebox{
+	float: left;
+	width: 100%;
+}
+.UsersImg{
+	float: left;
+	width: 150px;
+	height: 150px;
+	border:2px solid #B9C1CA;
+	border-left-color: #00AAFF;
+	border-top-color: #00FFAA;
+	border-right-color: #FF5500;
+	border-radius: 5%;
+	margin-top: 18px;
+	margin-left: 38px;
+	background-image: url(../img/face.jpg);
+	background-size:100% 100%;
+}
+.UsersImg img{
+	height: 146px;
+	width: 146px;
+}
+.btn1{
+    float: left;
+    margin-left: 30%;
+}
+.btn1 button{
+	background-color: #FAFAFA;
+}
+.btn2{
+    float: right;
+    margin-right: 40%;
+}
+.btn2 button{
+	background-color: #FAFAFA;
+}
